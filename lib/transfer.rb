@@ -12,7 +12,7 @@ class Transfer
   
   def valid?
     # sender.status == "open" && receiver.status == "open" ? true : false
-    @sender.status == "open" && @receiver.status == "open"
+    @sender.valid? && @receiver.valid?
   end
   
   def execute_transaction
