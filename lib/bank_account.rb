@@ -16,7 +16,7 @@ class BankAccount
     "Your balance is $#{@balance}."
   end
   
-  def valid
+  def valid?
     
   end
 end
