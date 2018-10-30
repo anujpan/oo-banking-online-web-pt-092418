@@ -11,7 +11,6 @@ class Transfer
   end
   
   def valid?
-    binding.pry
     sender.status == "open" && receiver.status == "open" ? true : false
   end
 end
