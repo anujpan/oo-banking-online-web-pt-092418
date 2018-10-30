@@ -17,6 +17,6 @@ class BankAccount
   end
   
   def valid?
-    binding.pry
+    # binding.pry
   end
 end
