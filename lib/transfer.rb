@@ -16,6 +16,7 @@ class Transfer
   end
   
   def execute_transaction
+    @status = "complete"
     binding.pry
   end
 end
