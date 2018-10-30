@@ -10,7 +10,7 @@ class Transfer
     @status = "pending"
   end
   
-  def valid
+  def valid?
     binding.pry
   end
 end
